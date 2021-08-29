@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font Awsome CDN for icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <title>Portfolio</title>
+        <style>
+            table { 
+                border: none; 
+                border-collapse: collapse; 
+            }
+            table th {
+                border-left: 1px solid #000;
+            }
+            table td { 
+                border-left: 1px solid #000; 
+                border-top: 1px solid #000;
+            }
+            table td:first-child { 
+                border-left: none; 
+            } 
+            table th:first-child{
+                border-left: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Claude J Will</h1>
+        <img src="img/me.png" height="150" width="150" alt="photo of developer">
+        <div>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/claudewill1" target="_blank">My Github</a>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/claudewill/" target="_blank">My LinkedIn</a>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto: claude.will@yahoo.com" target="_blank">My Email</a>
+        </div>
+        <br />
+        <div>
+            
+            <table>
+                <caption style="text-align: left; font-size: large;"><strong>Technologies</strong></caption>
+                <thead>
+                    
+                    <tr>
+                        <th><strong>Front-End</strong></th>
+                        <th><strong>Python</strong></th>
+                        <th><strong>JavaScript</strong></th>
+                        <th><strong>.NET</strong></th>
+                        <th><strong>Database</strong></th>
+                        <th><strong>Concepts</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Django</td>
+                        <td>Express</td>
+                        <td>ASP.NET</td>
+                        <td>MySQL</td>
+                        <td>AJAX</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Flask</td>
+                        <td>NMongoose</td>
+                        <td>C#</td>
+                        <td>MongoDB</td>
+                        <td>OOP</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>Flask</td>
+                        <td>Node</td>
+                        <td>RazorPages</td>
+                        <td>T-SQL</td>
+                        <td>M.V.C.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br />
+        <div>
+            <h2>Jammming</h2>
+            <p><img src="img/project.png" alt="logo of Jammming app"></p>
+            <p>Web app which uses the Spotify API to allow users to generate playlists for Spotify. Developed using React.JS</p>
+            <p><a href="https://github.com/claudewill1/Projects-and-Coding-Challenges/tree/master/Premium/ReactJS/Jammming/jammming-app">code</a> |
+                <a href="https://cjwill87.surge.sh/">deployed</a></p>
+        </div>
+        <form action="/process" method="POST">
+            <h2>Contact Me</h2>
+            <p>
+                <label>Name: </label>
+                <input type="text" name="name" id="name">
+                <label>Email: </label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label>Message: </label>
+                <textarea name="message" id="message"></textarea>
+            </p>
+            <button type="submit">Send Message</button>
+        </form>
+    </body>
+</html>
