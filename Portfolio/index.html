@@ -9,29 +9,11 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         
         <title>Portfolio</title>
-        <style>
-            table { 
-                border: none; 
-                border-collapse: collapse; 
-            }
-            table th {
-                border-left: 1px solid #000;
-            }
-            table td { 
-                border-left: 1px solid #000; 
-                border-top: 1px solid #000;
-            }
-            table td:first-child { 
-                border-left: none; 
-            } 
-            table th:first-child{
-                border-left: none;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Claude J Will</h1>
-        <img src="img/me.png" height="150" width="150" alt="photo of developer">
+        <img src="img/me.png" class="dev-photo" alt="photo of developer">
         <div>
             <i class="fab fa-github"></i>
             <a href="https://github.com/claudewill1" target="_blank">My Github</a>
@@ -44,7 +26,7 @@
         <div>
             
             <table>
-                <caption style="text-align: left; font-size: large;"><strong>Technologies</strong></caption>
+                <caption><strong>Technologies</strong></caption>
                 <thead>
                     
                     <tr>
