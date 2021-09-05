@@ -1,0 +1,24 @@
+.row {
+    height: 50px;
+    display: flex;
+}
+.col {
+    background-color: darkslategray;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    flex: 1;
+}
+.col-2 {
+    background-color: darkred;
+    color: white;
+    margin: 5px;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: darkslateblue;
+    color: white;
+    margin: 5px;
+    flex: 3;
+}

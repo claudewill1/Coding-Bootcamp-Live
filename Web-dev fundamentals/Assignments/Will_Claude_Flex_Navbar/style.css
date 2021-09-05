@@ -1,0 +1,47 @@
+* {
+    font-family: Roboto;
+}
+.nav {
+    background-color: rgb(90, 92, 95);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 3px;
+    
+}
+
+.nav h1 {
+    margin: 10px;
+}
+
+.nav-links {
+    
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    
+}
+
+.nav-links a {
+    color:whitesmoke;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: blue;
+    border: 0.5px solid black;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+}
