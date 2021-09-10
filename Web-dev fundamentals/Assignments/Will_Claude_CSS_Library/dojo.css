@@ -1,0 +1,129 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Search, Add, Create Buttons */
+.search {
+    color: #519c48;
+    border: 1px solid #519c48;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+}
+.add {
+    background-color: #47bb38;
+    color: white;
+    font-size: larger;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.create {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    width: 175px;
+    height: 40px;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* Row and Col */
+.row {
+    height: 50px;
+    display: flex;
+}
+.col {
+    background-color: darkslategray;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    flex: 1;
+}
+.col-2 {
+    background-color: darkred;
+    color: white;
+    margin: 5px;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: darkslateblue;
+    color: white;
+    margin: 5px;
+    flex: 3;
+}
+
+/* navbar */
+* {
+    font-family: Roboto;
+}
+.nav {
+    background-color: rgb(90, 92, 95);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 3px;
+    
+}
+
+.nav h1 {
+    margin: 10px;
+}
+
+.nav-links {
+    
+    list-style-type: none;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 150px
+    
+    
+}
+
+.nav-links a {
+    color:whitesmoke;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: blue;
+    border: 0.5px solid black;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* Extra Custom Class for a specific sized container */
+.connections {
+    border: 2px solid black;
+    
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    
+    margin-left: 10px;
+}

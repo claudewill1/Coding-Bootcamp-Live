@@ -1,0 +1,83 @@
+.container {
+    border: 1px solid black;
+   
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+#user {
+    align-self: flex-start;
+    margin-top: -50px;
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+}
+#marker {
+    width: 15px;
+    height: 24px;
+    float: left;
+    margin-right: 10px;
+}
+.top {
+    background-color: rgb(79, 95, 168);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    width: auto;
+    padding: 3px;
+}
+
+.info {
+    font-family: monospace;
+    flex: 3;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.location {
+    flex-direction: row;
+    margin-left: 10px;
+    
+}
+
+.personal-details {
+    font-family: monospace;
+    font-size: large;
+    font-style: oblique;
+
+}
+
+.personal-details p {
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.edit {
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.edit img {
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+}
+
+.edit a {
+    vertical-align: middle;
+}
+
+h1 {
+    margin: 0 10px;
+}
+
+h2 {
+    vertical-align: middle;
+    margin-left: 5px;
+    padding-left: 5px;
+    
+}
+
