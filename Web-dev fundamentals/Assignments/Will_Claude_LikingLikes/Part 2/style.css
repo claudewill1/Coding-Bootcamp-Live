@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentLeft {
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contentLeft img {
+    width: 80%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.contentLeft h1 {
+    align-self: center;
+    margin-top: 20px;
+}
+
+.contentRight {
+    
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20%;
+    padding-left: 20px;
+    
+}
+
+.innerContent {
+    
+    width: 60%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.pageHead {
+    background-color: black;
+    color: white;
+    font-size: 40pt;
+    display:flex;
+    width: 60%;
+    height: 70px;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    vertical-align: center;
+}
+
+.title {
+    
+    font-size: 30pt;
+    height: 70px;
+    width: 60%;
+    padding-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+}
+
+
+
+/* users */
+.userContainer {
+    border: 2px solid black;
+    display: inline-block;
+    height: 150px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.userContainer p {
+    
+    font-family: monospace;
+    font-size: 16pt;
+    flex: 2;
+    width: 90%;
+    padding: 5px;
+}
+.userContainer p a {
+    font-weight: 600;
+}
+
+.userNameLikesContainer {
+
+    display: flex;
+    height: 50px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+}
+
+
+
+.userNameLikes h1 {
+    float: center;
+    display: inline;
+    position: relative;
+    align-self: flex-start;
+    height: auto;
+    width: 150px;
+    padding: 3px;
+    padding-left: 10%;
+    align-content: center;
+    left: 0;
+}
+
+.likes {
+    
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 190px;
+    justify-self: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    margin-right: 10%;
+    position: relative;
+}
+
+.likes p {
+    font-size: 12pt;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+
+.likes span {
+    font-family: monospace;
+    font-size: 16pt;
+}
+
+.likeBtn {
+    background-color: rgb(228, 214, 20);
+    border: 1px solid rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+    box-shadow: 10px 5px 5px black;
+    padding-right: 10px;
+    margin-right: 7px;
+
+}
+
+
+#userLink {
+    font-size: 14pt;
+    align-self: center;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

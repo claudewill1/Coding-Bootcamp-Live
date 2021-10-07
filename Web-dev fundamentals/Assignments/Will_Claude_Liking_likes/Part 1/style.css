@@ -1,0 +1,76 @@
+.userContainer {
+    border: 1px solid black;
+    display: inline-block;
+    height: 150px;
+    width: 360px;
+}
+
+.userContainer p {
+    
+    font-family: monospace;
+    font-size: 14pt;
+    flex: 2;
+    width: 340px;
+    padding: 5px;
+}
+
+.userNameLikesContainer {
+    display: flex;
+    height: 50px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.userNameLikes h1 {
+    
+    display: inline;
+    position: relative;
+    align-self: flex-start;
+    height: auto;
+    width: 150px;
+    padding: 3px;
+    
+    left: 0;
+}
+
+.likes {
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 190px;
+    justify-self: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    position: relative;
+}
+
+.likes p {
+    font-size: 14pt;
+    width: 70px;
+    height: auto;
+    margin: 5px;
+}
+
+.likes span {
+    font-family: monospace;
+    font-size: 16pt;
+}
+
+#likeBtn {
+    background-color: rgb(228, 214, 20);
+    border: 1px solid rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+    box-shadow: 10px 5px 5px black;
+    padding-right: 10px;
+    margin-right: 7px;
+
+}

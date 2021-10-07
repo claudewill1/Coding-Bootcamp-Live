@@ -1,3 +1,20 @@
 h1 {
     color: red;
 }
+
+table, th, td {
+    border: 2px solid black;
+    border-spacing: 0px;
+}
+
+p {
+    background-color: salmon;
+}
+
+#greenText {
+    color: green;
+}
+
+.redText {
+    color: red;
+}

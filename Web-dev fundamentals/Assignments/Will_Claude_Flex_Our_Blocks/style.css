@@ -14,7 +14,7 @@
     height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
+    flex-direction: column;
     vertical-align: top;
     margin-left: 10px;
     margin-right: 10px;
@@ -31,7 +31,7 @@
     height: 200px;
     width: 210px;
     background-color: yellow;
-    display: inline-block;
+    flex-direction: row;
     margin: 0px 0px 10px 10px;
 }
 #advertisement {

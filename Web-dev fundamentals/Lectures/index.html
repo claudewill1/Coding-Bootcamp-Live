@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture Code</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    <h1>Mario's Portfolio Page</h1>
+    <h1 onclick="showMessage()">Mario's Portfolio Page</h1>
+    <p><span id="count">0</span> Claps</p>
+    <button onclick="clapMore()">Increment</button>
+    <h2>List of Sports Played:</h2>
+    <button onclick="makeDiffElementVanish()">Make Something Vanish</button>
+    <ul>
+        <li>Baseball</li>
+        <li id="greenText">Golf</li>
+        <li>Soccer</li>
+        <li class="redText">Tennis</li>
+    </ul>
+    <h2 onclick="showInnerText(this)">My Friends</h2>
+    <ol>
+        <li onclick="removeElement(this)">Luigi</li>
+        <li class="redText">Peach</li>
+        <li>Toad</li>
+    </ol>
 </body>
 </html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="purpleBarTop"></div>
+        <nav class="navbar navbar-expand-sm bg-black justify-content-center">
+            <h1 id="logo">Gaming<span>Dojo</span></h1>
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li>
+                    <select name="currency" id="currency">
+                        <option value="Euro">Euro €</option>
+                        <option value="USD">USD $</option>
+                        <option value="GBP">GBP £</option>
+                    </select>
+                </li>
+                <li>
+                    <img src="./images/cart-light.png" alt="icon image of a shopping cart">
+                    <p id="cartCount">0</p>
+                </li>
+                <li>
+                    <img src="./images/search-light.png" alt="image icon of a magnifying glass">
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h3 class="highlights">Highlights</h3>
+            <div class="promotion">
+                <input type="image" src="./images/chevron-left.png" id="chevron-left" alt="image of chevron pointing left" onclick="changeSlideLeft()"/>
+                <img src="./images/stonepunk.png" class="gameImage" alt="image forgame" id="game">
+                <input type='image' src="images/chevron-right.png" id="chevron-right" alt="image of chevron pointing right" onclick="changeSlideRight()" />
+                
+            </div>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li id="stonepunk" class="active" onclick="changeWithIndicator(this)"></li>
+                    <li id="cafe-neko" onclick="changeWithIndicator(this)"></li>
+                    <li id="pixel-ninjas-2" onclick="changeWithIndicator(this)"></li>
+                    
+                </ol>
+            </div>
+            
+            <div class="games">
+                <div class="game">
+                    <img src="images/cafe-neko.png" alt="image of cafe-neko game">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <div class="availablePlatforms">
+                        <img src="images/windows.png" alt="image of windows logo" id="windows">
+                        <img src="images/apple.png" alt="image of apple logo" id="apple">
+                    </div>
+                    <div class="purchase">
+                        <h3 class="discount">-20%</h3>
+                        <div class="price">
+                            <p class="oldPrice"><span>€</span>14.98</p>
+                            <p class="salePrice"><span>€</span>10.49</p>
+                        </div>
+                        <h3 class="buy" onclick="addToCart()">Buy</h3>
+                    </div>
+                </div>
+                <div class="game">
+                    <img src="images/pixel-ninjas-2.png" alt="pixel-ninjas-2 image">
+                    <h3>Pixel Ninjas 2</h3>
+                    <div class="availablePlatforms">
+                        <img src="images/windows.png" alt="image of windows logo" id="windows">
+                        <img src="images/apple.png" alt="image of apple logo" id="apple">
+                    </div>
+                    <div class="purchase">
+                        <h3 class="discount">-10%</h3>
+                        <div class="price">
+                            <p class="oldPrice"><span>€</span>8.19</p>
+                            <p class="salePrice"><span>€</span>7.39</p>
+                        </div>
+                        <h3 class="buy" onclick="addToCart()">Buy</h3>
+                    </div>
+                </div>
+                <div class="game">
+                    <img src="images/stonepunk.png" alt="image of stonepunk game">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <div class="availablePlatforms" id="linuxAvailable">
+                        <img src="images/windows.png" alt="image of windows logo" id="windows">
+                        <img src="images/apple.png" alt="image of apple logo" id="apple">
+                        <img src="images/linux.png" alt="image of linux logo" id="linux" onclick="showSupport()">
+                    </div>
+                    <div class="purchase">
+                        <h3 id="new">NEW</h3>
+                        <div class="price">
+                            <p id="newPrice"><span id="newCurrencySymbol">€</span>19.99</p>
+                        </div>
+                        <h3 class="buy" onclick="addToCart()">Buy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </div>
+</body>
+</html>
